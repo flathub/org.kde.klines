@@ -32,7 +32,11 @@
                     "type": "archive", 
                     "url": "https://download.kde.org/stable/release-service/21.08.0/src/klines-21.08.0.tar.xz",
                     "sha256": "3ee434d4e4b567893aff175713cf0c2de9cb77b126167c1d533f58eb59408238"
-                } 
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
+                }                 
             ]
         }
     ]
