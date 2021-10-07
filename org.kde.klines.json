@@ -19,8 +19,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.08.1/src/libkdegames-21.08.1.tar.xz",
-                    "sha256": "51de56a9f714085ceed2d3200852c1e33b7847768336d02524b07ce3f51cdd6d"
+                    "url": "https://download.kde.org/stable/release-service/21.08.2/src/libkdegames-21.08.2.tar.xz",
+                    "sha256": "077203df97c7b41b1f87d790a8107066d59b1fa65ae176320230b1120a246b49"
                 } 
             ]
         },
@@ -30,8 +30,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.08.1/src/klines-21.08.1.tar.xz",
-                    "sha256": "c6427639877e6f81039eb80bf7c556acc6feb279561ae7e59ad9597d7548d3c7"
+                    "url": "https://download.kde.org/stable/release-service/21.08.2/src/klines-21.08.2.tar.xz",
+                    "sha256": "2735803c67ead90f7ed94fa232ef7dada8162e64de64bb78a46ad9876853aabf"
                 }                 
             ]
         }
