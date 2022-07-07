@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/klines-22.04.2.tar.xz",
-                    "sha256": "a145ea368d4dcab3633d5694210a7e77e648c4a51a97b2dfa5ebd3fa2cb9773f",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/klines-22.04.3.tar.xz",
+                    "sha256": "7fa7bf672bf9c1ae678dd40f1751c58da7d83615796b7b633f3164cf2c7be597",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
