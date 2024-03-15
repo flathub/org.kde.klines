@@ -6,11 +6,10 @@
     "command": "klines",
     "rename-icon": "klines",
     "finish-args": [
-        "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
         "--device=dri",
-        "--filesystem=xdg-config/kdeglobals:ro"
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "modules": [
         {
