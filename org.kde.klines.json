@@ -1,16 +1,15 @@
 {
     "id": "org.kde.klines",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "klines",
     "rename-icon": "klines",
     "finish-args": [
-        "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
         "--device=dri",
-        "--filesystem=xdg-config/kdeglobals:ro"
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "modules": [
         {
@@ -19,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/libkdegames-23.08.5.tar.xz",
-                    "sha256": "0ac583f4327d6003782054a9ee3d51c922bcdf04577a3f7f12b3840cabf2efed",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/libkdegames-24.02.1.tar.xz",
+                    "sha256": "494017b065899280f52e90f01c7f50aeea863532836b848fa45f771a2c147105",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/klines-23.08.5.tar.xz",
-                    "sha256": "fd7a44945d9402b4e1e601392c09255d82b86a0e0f7989a28b5fbb2bab8b371e",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/klines-24.02.1.tar.xz",
+                    "sha256": "e2411c932934666dd9d3c123babb70a0b05b23894f187f7317422d1684782744",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
